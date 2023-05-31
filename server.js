@@ -12,7 +12,7 @@ app.use(express.json());
 
 const MongoDB_URL = 'mongodb+srv://root:3465@cluster0.nypmo.mongodb.net/PersonDB?retryWrites=true&w=majority'
 // const MongoDB_URL = 'mongodb://127.0.0.1:27017/PersonDB';
-const PORT = 5000;
+const PORT = 5001;
 let allUserList = [];
 let userList = [];
 
@@ -164,7 +164,7 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-var port = PORT || 5001;
+var port = PORT || 5002;
 
 app.listen(port, () => {
   console.log(`Backend Running at ${port}`);
