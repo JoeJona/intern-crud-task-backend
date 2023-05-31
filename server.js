@@ -152,7 +152,7 @@ app.post("/send-email", async (req, res) => {
     
       let info = await transporter.sendMail({
         from: 'joejona124@gmail.com',
-        to: "joejona124@gmail.com",
+        to: "info@redpositive.in",
         subject: "Users List",
         text: "Selected Users List",
         html: send_email,
