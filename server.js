@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 
-// const MongoDB_URL = 'mongodb+srv://root:3465@cluster0.nypmo.mongodb.net/PersonDB?retryWrites=true&w=majority'
-const MongoDB_URL = 'mongodb://127.0.0.1:27017/PersonDB';
+const MongoDB_URL = 'mongodb+srv://root:3465@cluster0.nypmo.mongodb.net/PersonDB?retryWrites=true&w=majority'
+// const MongoDB_URL = 'mongodb://127.0.0.1:27017/PersonDB';
 const PORT = 5000;
 let allUserList = [];
 let userList = [];
